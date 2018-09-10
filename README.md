@@ -19,7 +19,19 @@ ROUTE  |  HTTP  | Description
 ROUTE  |  HTTP  | Description  
 -------|--------|-------------
 /car/ | GET | List of car  
-/car/:id | GET | Get single data Car 
+/car/:id | GET | Get single data Car
 /car/edit/:id | PUT | Update single car data
 /car/add | POST | ADD single car data
 /car/delete/:id | DELETE | delete single car data
+
+
+how to run server:?
+* git clone https://github.com/handipriyono/garage.git
+* cd server
+* NPM install
+* npm start ( in folder server )
+
+how to run client? :
+* in other terminal, navigate to client folder:
+* -> cd client
+* npm start ( in client folder )
