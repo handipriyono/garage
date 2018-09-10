@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {Button, Table} from 'semantic-ui-react'
+import {  Table} from 'semantic-ui-react'
 import * as All from '../actions'
 import {connect} from 'react-redux';
-import { Card, Icon } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 import Mod from './modal'
 import Editcar from './editcar'
 
@@ -29,7 +29,7 @@ class editgarage extends Component {
     let edits = this.state.editan
     console.log(singles)
       if(singles=== undefined){
-        return <div><img src="https://www.pnevmoteh.ru/sites/default/files/loading.gif"/></div>
+        return <div><img alt="load" src="https://www.pnevmoteh.ru/sites/default/files/loading.gif"/></div>
       } else {
         return (
           <div className="cent">

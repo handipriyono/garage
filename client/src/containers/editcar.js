@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Button, Header, Image, Modal, Checkbox, Form  } from 'semantic-ui-react'
+import { Button, Image, Modal, Form  } from 'semantic-ui-react'
 
 class editcar extends Component {
   constructor(props){
@@ -132,7 +132,7 @@ componentDidMount() {
     </Form.Field>
     <Button type='submit' onClick={this.saves.bind(this)}>Submit /Update this data</Button>
   </Form>
-               
+
 
               </Modal.Description>
             </Modal.Content>

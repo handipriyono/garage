@@ -26,7 +26,7 @@ export const updateCar = (id,objdata) =>{
   return(dispatch)=>{
     return axios({
       method:'put',
-      url:`http://localhost:3000/car/edit/${id}`,
+      url:`http://35.231.196.187/car/edit/${id}`,
       data:objdata
     })
     .then((response) =>{
@@ -42,7 +42,7 @@ export const getGarage = (id) =>{
   return(dispatch)=>{
     return axios({
       method:'get',
-      url:`http://localhost:3000/garages/${id}`
+      url:`http://35.231.196.187/garages/${id}`
     })
     .then((response) =>{
       dispatch(getSingleGarage(response.data))
@@ -58,7 +58,7 @@ export const getData = ()=>{
   return(dispatch)=>{
     return axios({
       method:'get',
-      url:'http://localhost:3000/garages'
+      url:'http://35.231.196.187/garages'
     })
     .then((response) =>{
       dispatch(getDataSukses(response.data))

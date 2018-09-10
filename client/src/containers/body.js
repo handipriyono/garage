@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import * as All from '../actions'
 import {connect} from 'react-redux';
-import {Button, Table} from 'semantic-ui-react'
+import { Table} from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
-import { Card, Icon } from 'semantic-ui-react'
+import { Card  } from 'semantic-ui-react'
 
 class bodys extends Component {
 
@@ -52,7 +52,7 @@ class bodys extends Component {
       </div>)
 
     } else {
-      return <div><img src="https://www.pnevmoteh.ru/sites/default/files/loading.gif"/></div>
+      return <div><img alt="load" src="https://www.pnevmoteh.ru/sites/default/files/loading.gif"/></div>
     }
 
   }

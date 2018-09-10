@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
-import Bodys from './containers/body'
+import './App.css'; 
 import EditGarage from './containers/editgarage'
 import {Provider} from 'react-redux';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
