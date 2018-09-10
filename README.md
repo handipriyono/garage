@@ -19,8 +19,7 @@ ROUTE  |  HTTP  | Description
 ROUTE  |  HTTP  | Description  
 -------|--------|-------------
 /car/ | GET | List of car  
-/car/:id | GET | Get single data Car
-/car/:id | GET | Get a single garage data by ID
+/car/:id | GET | Get single data Car 
 /car/edit/:id | PUT | Update single car data
 /car/add | POST | ADD single car data
 /car/delete/:id | DELETE | delete single car data
