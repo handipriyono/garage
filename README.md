@@ -1,6 +1,6 @@
 # garage
 
-URL: http://garage16.s3-website-us-east-1.amazonaws.com/
+# URL: http://garage16.s3-website-us-east-1.amazonaws.com/
 
 #### Garage Routes:
 
